@@ -1,31 +1,14 @@
 {
-  "items": [
-    { "id": "item_5647",
-      "name":"Apple" ,
-      "info":"Keeps you healthy",
-      "src": "apple",
-      "cost": 1,
-    },
-    { "id": "item_2270",
-      "name":"Pint" ,
-      "info":"Give it a shot",
-      "src": "pint",
-      "cost": 5
-    },
-    {
-      "id": "item_6479",
-      "name":"Salad" ,
-      "info":"Because, why not?",
-      "src": "salad",
-      "cost": 3
-    },
-    {
-      "id": "item_7290",
-      "name":"Bread" ,
-      "info":"Basics rocks",
-      "src": "bread",
-      "cost": 2.50
-    },
-
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
